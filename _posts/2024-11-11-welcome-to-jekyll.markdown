@@ -28,6 +28,17 @@ print_hi('Tom')
 </script>
 
 
+<iframe title="Distribución por género y categorías" aria-label="Split Bars" id="datawrapper-chart-vCnoJ" src="https://datawrapper.dwcdn.net/vCnoJ/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="303" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+
+<iframe title="Percentil 5 y 90 por categoría y segmento" aria-label="Range Plot" id="datawrapper-chart-HGIb3" src="https://datawrapper.dwcdn.net/HGIb3/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1424" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+
+
+<iframe title="Average Speed vs General Position in Palmas " aria-label="Scatter Plot" id="datawrapper-chart-p46G9" src="https://datawrapper.dwcdn.net/p46G9/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="629" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+
+
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
