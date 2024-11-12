@@ -20,7 +20,7 @@
 
 title: Giro de Rigo 2024
 email: me@amartinez.co
-baseurl: "/giro" # the subpath of your site, e.g. /blog
+baseurl: "/giro_de_rigo_2024" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: anmarguti
 github_username: amartinezg
