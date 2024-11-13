@@ -171,3 +171,97 @@ count_valid_times_with_percentages(df)
 # how many rows did not start the race? count all rows where all splits are 0 or empty
 not_started_count = df[df[['split_palmas', 'split_km33', 'split_raya', 'split_km119', 'split_final']].isnull().all(axis=1)].shape[0]
 print(f"Number of participants who did not start the race: {not_started_count}")
+
+
+# Given the data below, I need to create another CSV with the following columns: category, segment, speed, speed_min, speed_max
+
+df = pd.read_csv('data/giro_rigo_average_speeds_segments.csv')
+
+# Prepare a list to hold the transformed data
+transformed_data = []
+
+# Define the segments based on the column names
+segments = ['Palmas', 'Km33', 'Raya', 'Km119', 'Final']
+
+# Iterate over each row in the DataFrame
+for index, row in df.iterrows():
+    category = row['category']
+    #print header names
+    print(row.keys())
+
+    for segment in segments:
+        # Extract the average, min, and max speeds for each segment
+        speed_avg = row[f'AVERAGE of avg_speed_split_{segment.lower()}']
+        speed_min = row[f'MIN of avg_speed_split_{segment.lower()}']
+        speed_max = row[f'MAX of avg_speed_split_{segment.lower()}']
+
+        # Append the transformed row to the list
+        transformed_data.append([category, segment, speed_avg, speed_min, speed_max])
+
+# Create a new DataFrame from the transformed data
+transformed_df = pd.DataFrame(transformed_data, columns=['category', 'segment', 'speed_avg', 'speed_min', 'speed_max'])
+
+# each category should have a init value of 0 in all columns, new segment called "init"
+for category in transformed_df['category'].unique():
+    init_row = {'category': category, 'segment': 'Init', 'speed_avg': 0, 'speed_min': 0, 'speed_max': 0}
+    transformed_df = pd.concat([transformed_df, pd.DataFrame([init_row])], ignore_index=True)
+
+# Write the transformed DataFrame to a new CSV file
+transformed_df.to_csv('data/giro_rigo_average_speeds_segments_transformed.csv', index=False)
+
+
+# Given the data data/giro_de_rigo_times_with_positions_finishers.csv
+# I want to create a column for each category and each row should bin the total time in 30 minutes intervals (between 4 hours and 10 hours)
+# the value of each row and category should be the percentage of participants that fall into that bin for that category, each column should sum 100%
+# Example:
+# bin -> elite -> categoría a
+# 4:00 - 4:30 -> 10% -> 10%
+# 4:30 - 5:00 -> 20% -> 20%
+# 5:00 - 5:30 -> 10% -> 10%
+# ...
+# 9:30 - 10:00 -> 1%
+
+# Read the CSV file into a DataFrame
+df = pd.read_csv('data/giro_de_rigo_times_with_positions_finishers.csv')
+
+# Define the time bins (in seconds) each 15 minutes startint in 4 hours up to 8 hours)
+bins = np.array([14400, 16200, 18000, 19800, 21600, 23400, 25200, 27000, 28800, 30600, 32400])
+
+# Create a new DataFrame to store the binned data
+binned_data = pd.DataFrame()
+
+# Iterate over each category
+categories = df['category'].unique()
+for category in categories:
+    # Filter the DataFrame for the current category
+    category_df = df[df['category'] == category]
+
+    #print(category_df.head())
+
+    # Bin the total times
+    binned_counts, _ = np.histogram(category_df['chip_time'], bins=bins)
+
+    #print(f"Binned counts for category {category}: {binned_counts}")
+
+    # Calculate the percentage for each bin
+    binned_percentages = (binned_counts / binned_counts.sum()) * 100
+
+    #print(f"Binned percentages for category {category}: {binned_percentages}")
+
+    # Add the percentages to the binned_data DataFrame
+    binned_data[category] = binned_percentages
+
+
+# Create a column for the bin labels
+bin_labels = [f"{int(bins[i]//3600)}:{int((bins[i]%3600)//60):02d} - {int(bins[i+1]//3600)}:{int((bins[i+1]%3600)//60):02d}" for i in range(len(bins)-1)]
+binned_data['bin'] = bin_labels
+
+# Reorder columns to have 'bin' as the first column
+binned_data = binned_data[['bin'] + list(categories)]
+
+
+# print dataframe
+print(binned_data)
+
+# Write the binned data to a new CSV file
+binned_data.to_csv('data/binned_participant_percentages.csv', index=False)
