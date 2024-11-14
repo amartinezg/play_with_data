@@ -11,7 +11,9 @@ date:   2024-11-11 19:50:21 -0500
 1. [Categorías y distribución por género](#1-categorías-y-distribución-por-género)
 2. [¿Cuántos terminaron?](#2-cuántos-terminaron)
 3. [¿Qué tan rápido fue?](#3-qué-tan-rápido-fue)
-   - [¿Qué tan rápido se hicieron los ascensos y cómo se correlacionan con las posiciones?](#31-qué-tan-rápido-se-hicieron-los-ascensos-y-cómo-se-correlacionan-con-las-posiciones)
+    3.1 [Velocidad por segmentos](#31-velocidad-por-segmentos)
+    3.2 [Alto de Las Palmas](#32-alto-de-las-palmas)
+    3.3 [Alto de La Raya](#33-alto-de-la-raya)
 4. [¿Cómo se distribuyeron los tiempos en las categorías?](#4-cómo-se-distribuyeron-los-tiempos-en-las-categorías)
 5. [Hablemos de los élite](#5-hablemos-de-los-élite)
 
@@ -63,7 +65,6 @@ A pesar de las diferencias de alturas, la fatiga y altitud acumulada, no fue imp
 
 <iframe title="Promedio velocidad por segmento" aria-label="Interactive line chart" id="datawrapper-chart-tDKba" src="https://datawrapper.dwcdn.net/tDKba/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="537" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
-
 
 ### 3.2 Alto de Las Palmas
 
