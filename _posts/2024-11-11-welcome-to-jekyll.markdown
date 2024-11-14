@@ -61,7 +61,8 @@ La carrera se fue haciendo más rápida con el pasar de los kilómetros. Para es
 
 A pesar de las diferencias de alturas, la fatiga y altitud acumulada, no fue impedimento para que la carrera en los últimos 40 kilómetros mostrara un aumento de velocidad. Los élite terminaron promediando alrededor de 30km/h; mientras que, las demás categorías, terminaron promediando entre 21 y 25km/h.
 
-<iframe title="Promedio velocidad por segmento" aria-label="Interactive line chart" id="datawrapper-chart-tDKba" src="https://datawrapper.dwcdn.net/tDKba/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="571" data-external="1"></iframe>
+<iframe title="Promedio velocidad por segmento" aria-label="Interactive line chart" id="datawrapper-chart-tDKba" src="https://datawrapper.dwcdn.net/tDKba/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="537" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
 
 
 ### 3.2 Alto de Las Palmas
