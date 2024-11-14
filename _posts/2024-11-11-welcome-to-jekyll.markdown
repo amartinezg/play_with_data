@@ -4,18 +4,18 @@ title:  "Giro de Rigo 2024. Reto Leyenda"
 date:   2024-11-11 19:50:21 -0500
 ---
 
-# Giro de Rigo 2024. Reto Leyenda.
-
 ## Contenido
 
 1. [Categorías y distribución por género](#1-categorías-y-distribución-por-género)
 2. [¿Cuántos terminaron?](#2-cuántos-terminaron)
 3. [¿Qué tan rápido fue?](#3-qué-tan-rápido-fue)
-    3.1 [Velocidad por segmentos](#31-velocidad-por-segmentos)
-    3.2 [Alto de Las Palmas](#32-alto-de-las-palmas)
-    3.3 [Alto de La Raya](#33-alto-de-la-raya)
+    - [3.1 Velocidad por segmentos](#31-velocidad-por-segmentos)
+    - [3.2 Alto de Las Palmas](#32-alto-de-las-palmas)
+    - [3.3 Alto de La Raya](#33-alto-de-la-raya)
 4. [¿Cómo se distribuyeron los tiempos en las categorías?](#4-cómo-se-distribuyeron-los-tiempos-en-las-categorías)
 5. [Hablemos de los élite](#5-hablemos-de-los-élite)
+
+# Giro de Rigo 2024. Reto Leyenda.
 
 ¿Qué significa enfrentarse a este reto? Hablamos de 155.5 km de pura resistencia, con un desnivel acumulado de 3000 metros.
 
