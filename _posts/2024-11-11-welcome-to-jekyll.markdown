@@ -53,9 +53,18 @@ En la meta llegaron entre el 50% y el 80% contando todas las categorías.
 !function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
 
-## 3. ¿Qué tan rápido se hicieron los ascensos y cómo se correlacionan con las posiciones?
+## 3. ¿Qué tan rápido fue?
 
-### 3.1 Alto de Las Palmas
+### 3.1 Velocidad por segmentos
+
+La carrera se fue haciendo más rápida con el pasar de los kilómetros. Para este análisis se calcula el promedio de velocidad en cada ascenso y para el resto de segmento, se calcula con la distancia recorrida hasta ese momento.
+
+A pesar de las diferencias de alturas, la fatiga y altitud acumulada, no fue impedimento para que la carrera en los últimos 40 kilómetros mostrara un aumento de velocidad. Los élite terminaron promediando alrededor de 30km/h; mientras que, las demás categorías, terminaron promediando entre 21 y 25km/h.
+
+<iframe title="Promedio velocidad por segmento" aria-label="Interactive line chart" id="datawrapper-chart-tDKba" src="https://datawrapper.dwcdn.net/tDKba/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="571" data-external="1"></iframe>
+
+
+### 3.2 Alto de Las Palmas
 
 Para llegar en las primeras 200 posiciones, había que registrar un tiempo menor a 58 minutos en el Alto de Las Palmas, es decir, había que hacer un promedio de más de **16km/h** en el puerto fuera de categoría. La conclusión es contundente, a pesar de ser un evento recreativo, el nivel de los participantes es **altísimo**.
 
@@ -64,7 +73,14 @@ Por otro lado, hubo élites que fueron más regulados y subieron hasta en 1h 12m
 <iframe title="Average Speed vs General Position in Palmas " aria-label="Scatter Plot" id="datawrapper-chart-p46G9" src="https://datawrapper.dwcdn.net/p46G9/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="629" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
 
-### 3.1 ¿Qué tan rápido se hicieron los ascensos y cómo se correlacionan con las posiciones?
+### 3.3 Alto de La Raya
+
+Lo primero que salta a la vista es la anomalía en algunos participantes que promediaron más de 20km/h en este segmento y terminaron el recorrido alrededor de las 8 horas; es decir, según los datos, subieron a una velocidad mayor que todos los élite.
+
+Para asegurar un lugar entre los 50 mejores al final del recorrido, había que subir a más de 15km/h, mientras que el grueso de los participantes sin importar la categoría lo subieron entre 8.2 y 13.5km/h.
+
+<iframe title="Posición General vs Velocidad Alto de La Raya" aria-label="Scatter Plot" id="datawrapper-chart-Y7Wso" src="https://datawrapper.dwcdn.net/Y7Wso/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="530" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
 
 ## 4. ¿Cómo se distribuyeron los tiempos en las categorías?
 
