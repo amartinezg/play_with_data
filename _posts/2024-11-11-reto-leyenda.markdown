@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Giro de Rigo 2024. Reto Leyenda"
+title:  "Reto Leyenda"
 date:   2024-11-11 19:50:21 -0500
 ---
 
