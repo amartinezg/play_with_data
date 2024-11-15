@@ -87,9 +87,23 @@ Para asegurar un lugar entre los 50 mejores al final del recorrido, era necesari
 
 ## 4. ¿Cómo se distribuyeron los tiempos en las categorías?
 
-El análisis de percentiles muestra una clara diferencia de rendimiento entre élite y aficionados. En Las Palmas, los élite masculinos completaron el tramo en 43-60 minutos, mientras que otras categorías mostraron mayor dispersión, con tiempos más amplios. En el KM33, la brecha se mantiene, y algunos aficionados tardaron más de 2 horas. Al final, los élite terminaron en 4:15-5:59 horas, mientras que varios aficionados superaron las 8 horas, resaltando la diferencia en consistencia y resistencia entre ambos grupos.
+### 4.1 Percentiles de tiempos
+
+El análisis de percentiles muestra una clara diferencia de rendimiento entre élite y aficionados. En Las Palmas, los élite masculinos completaron el tramo en 43-60 minutos, mientras que otras categorías mostraron mayor dispersión, con tiempos más amplios.
+
+En el KM33, la brecha se mantiene, y algunos aficionados tardaron más de 2 horas. Al final, los élite terminaron en 4:15-5:59 horas, mientras que varios aficionados superaron las 8 horas, resaltando la diferencia en consistencia y resistencia entre ambos grupos.
 
 <iframe title="Percentil 5 y 90 por categoría y segmento" aria-label="Range Plot" id="datawrapper-chart-HGIb3" src="https://datawrapper.dwcdn.net/HGIb3/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1424" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+
+
+### 4.2 Distribución porcentual
+
+La diferencia de rendimiento entre las categorías élite y las demás es clara. Los élite masculinos alcanzan su pico de finalización entre las 4:30 y 5:00 horas, con un 40% de los participantes de esta categoría concentrados en ese rango. Las élite femeninas, por su parte, tienen su mayor concentración entre las 5:00 y 5:30 horas, con un notable 50%.
+
+En contraste, la categoría masculina de 31 a 40 años muestra una distribución mucho más dispersa, con participantes que terminan entre las 4:30 y las 9 horas, sin que ningún rango concentre al menos el 20% de los corredores. Esto indica una mayor diversidad en los niveles de rendimiento dentro de esta categoría.
+
+<iframe title="Distribución porcentual en tiempos por categorías" aria-label="Interactive line chart" id="datawrapper-chart-wcjUX" src="https://datawrapper.dwcdn.net/wcjUX/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="542" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
 
 ## 5. Hablemos de los élite
