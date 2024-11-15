@@ -14,6 +14,8 @@ date:   2024-11-11 19:50:21 -0500
     - [3.3 Alto de La Raya](#33-alto-de-la-raya)
 4. [¿Cómo se distribuyeron los tiempos en las categorías?](#4-cómo-se-distribuyeron-los-tiempos-en-las-categorías)
 5. [Hablemos de los élite](#5-hablemos-de-los-élite)
+    - [5.1 Masculino](#51-masculino)
+    - [5.2 Femenino](#52-femenino)
 
 # Giro de Rigo 2024. Reto Leyenda.
 
@@ -107,3 +109,21 @@ En contraste, la categoría masculina de 31 a 40 años muestra una distribución
 </script>
 
 ## 5. Hablemos de los élite
+
+### 5.1 Masculino
+
+La gráfica muestra que la mayoría de los participantes lograron mantener una posición relativamente constante a lo largo de los segmentos, con una tendencia a finalizar en una posición similar a la registrada en Las Palmas. Destaca el rendimiento del ganador, quien fue escalando posiciones de manera constante durante todo el recorrido. En contraste, el participante que llegó 5º en Las Palmas no logró sostener ese nivel y terminó perdiendo 17 posiciones al final de la carrera.
+
+<iframe title="Posiciones en cada segmento Masculino" aria-label="Interactive line chart" id="datawrapper-chart-xUdy4" src="https://datawrapper.dwcdn.net/xUdy4/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="718" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+
+### 5.2 Femenino
+
+Se observa una notable estabilidad en las posiciones de las primeras corredoras, quienes lograron mantener sus posiciones iniciales o realizaron pocos cambios a lo largo del recorrido.
+
+Un punto destacable es que la participante con el mejor tiempo en el segmento de La Raya fue descalificada, lo cual impactó la distribución final de posiciones. Sin esta descalificación, la dinámica en el grupo de líderes podría haber cambiado.
+
+Finalmente, se confirma lo mencionado en análisis anteriores: la mayoría de las participantes no registraron tiempos después del km 33, lo que sugiere que muchas abandonaron o enfrentaron dificultades para completar el recorrido.
+
+<iframe title="Posiciones en cada segmento Femenino" aria-label="Interactive line chart" id="datawrapper-chart-sHq43" src="https://datawrapper.dwcdn.net/sHq43/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="713" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
