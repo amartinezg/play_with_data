@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Giro de Rigo 2024
+title: Play with Data
 email: me@amartinez.co
-baseurl: "/giro_de_rigo_2024" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/play_with_data" # the subpath of your site, e.g. /blog
+url: "https://amartinez.co" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: anmarguti
 github_username: amartinezg
 
